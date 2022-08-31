@@ -1,0 +1,122 @@
+*{             
+    box-sizing: border-box;
+    
+}
+body{
+     
+     background-image: url("https://images-cdn.welcomesoftware.com/Zz0zZTliMjQ4MzhlNGExMWViYmJiMjFiZTI2ZWNmN2MzZA==");
+     background-size:2000px 1008px;  
+     background-repeat: no-repeat;  
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    box-sizing: border-box;
+    color:black;
+    
+}
+.outer
+{
+    /* border: 2px solid green; */
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+h1{
+    color: black;
+}
+.row{
+    width:30.33%;
+    background-color: rgb(220, 245, 237);
+    margin-top:16.573px;
+    margin-left: 2%;
+    border: rgb(15, 14, 14) 3px solid;
+    overflow: auto;
+    float:left;
+    /* backdrop-filter: blur(5px); */
+    box-sizing: border-box;
+    
+}
+.item
+{
+    width:30%;
+    float: right;
+    border: 3px solid rgb(6, 6, 6);
+    padding: 2px auto;
+    margin-bottom: 10%;
+}
+.boxo{
+    float:right;
+    backdrop-filter: blur(5px);
+    border-top:0ch;
+    border-right: 0ch;
+    background-color: rgb(225, 137, 137);
+    
+}
+.b2{
+    background-color: rgb(152, 227, 168);
+}
+.b3{
+    background-color: rgb(121, 121, 181);
+}
+.b1:hover{
+    background-color: rgb(243, 20, 20);
+    color: rgb(243, 239, 239);
+}
+.b2:hover{
+    background-color: rgb(22, 204, 86);
+    color: rgb(243, 239, 239);
+}
+.b3:hover{
+    background-color: rgb(72, 20, 243);
+    color: rgb(243, 239, 239);
+}
+.boxe{
+    float:left;
+    clear:both;
+    width:100%;
+    border: 0ch;
+}
+.a3{
+    margin-bottom: 5%;
+}
+@media(min-width:992px)
+{
+.a1{
+    width: 30.33%;
+}
+.a2{
+    width: 30.33%;
+}
+.a3{
+    width:30.33%;
+}
+}
+@media (max-width: 991px) and (min-width:768px)
+{
+.a1{
+    
+    width: 47%;
+}
+.a2{
+    
+    width: 47%;
+}
+.a3{
+    
+    width:96%;
+    /* margin: 2% 2% auto; */
+}
+}
+@media(max-width:767px)
+{
+.a1{
+    width: 95%;
+}
+.a2{
+    width: 95%;
+}
+.a3{
+    width:95%;
+    
+}
+}
